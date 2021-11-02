@@ -1,0 +1,166 @@
+<style>
+  body{
+    margin:0px;
+  }
+  #items{
+    margin: 0px;
+    background-color: black;
+    border-bottom: 1px solid gray;
+  }
+  #items ol{
+    text-align:center;
+    word-spacing:15px;
+    margin: 0;
+    padding:10px;
+  }
+  #items ol a{
+    font-size: small;
+    text-decoration: none;
+    color:white;
+  }
+  .content h1{
+    font-size: 50px;
+    margin:30px 0px 15px;
+    text-align:center;
+    font-weight: bold;
+  }
+  .content h2{
+    margin:0px 0px 10px 0px;
+    text-align:center;
+    font-weight: normal;
+  }
+  .content h3{
+    margin : 0px;
+    font-size: 13px;
+    font-weight : normal;
+    color:gray;
+  }
+  .content .para1{
+      text-align:center;
+  }
+  .content .para1 p {
+    word-spacing:5px;
+    text-align:center;
+    margin: 15px;
+  }
+  .content .para1 p a{
+    font-weight:bold;
+    text-decoration: none;
+    color:blue;
+  }
+  .content .image{
+    position:relative;
+    text-align:center;
+  }
+  .content .image .text{
+    position:absolute;
+    top:2%;
+    left:40%;
+    color:white;
+  }
+  .content .image .text p{
+    word-spacing:5px;
+    text-align:center;
+    margin: 15px;
+  }
+  .content .image .text p a{
+    text-decoration : none;
+    color:skyblue;
+    font-weight:bold;
+  }
+  .content .image2{
+    position:relative;
+    text-align:center;
+  }
+  .content .image2 .text{
+    position:absolute;
+    top:2%;
+    left:40%;
+    color:black;
+  }
+  .content .image2 .text p{
+    word-spacing:5px;
+    text-align:center;
+    margin: 15px;
+  }
+
+  .content .image2 .text p a{
+    text-decoration : none;
+    color:blue;
+    font-weight:bold;
+  }
+
+  .lb-image1 img{
+    margin-top: 0px;
+    width: 50%;
+    height: 50%;
+    position: relative;
+  }
+  .lb-image1 .lb-text1 {
+    color : white;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -0%);
+  }
+  .lb-image2 img{
+    margin-top: 0px;
+    width: 50%;
+    height: 50%;
+    position: relative;
+  }
+  .lb-image2 .lb-text1{
+    margin-top: 0px;
+    width: 50%;
+    height: 50%;
+    position: relative;
+  }
+  @media(max-width:1200px){
+    .content h1{
+      font-size: 40px;
+    }
+    .content h2{
+      font-size: 30px;
+    }
+    .content p{
+      font-size: 13px;
+    }
+  }
+  @media(max-width:1000px){
+    .content h1{
+      font-size: 35px;
+    }
+    .content h2{
+      font-size: 25px;
+    }
+    .content p{
+      font-size: 10px;
+    }
+
+  }
+  @media(max-width:800px){
+    .content h1{
+      font-size: 30px;
+    }
+    .content h2{
+      font-size: 20px;
+    }
+    .content p{
+      font-size: 8px;
+    }
+
+  }
+  @media(max-width:600px){
+    .content h1{
+      font-size: 20px;
+    }
+    .content h2{
+      font-size: 10px;
+    }
+    .content p{
+      font-size: 7px;
+    }
+
+  }
+</style>
